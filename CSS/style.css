@@ -1,0 +1,46 @@
+/*ID selectors*/
+#zzz
+{
+background-color: rgb(52, 202, 165);
+color: beige;
+}
+/*child selectors*/
+div > p {
+background-color: rgb(255, 253, 132);
+}
+/*descendent selectors*/
+div h4 {
+    background-color: orange;
+}
+/*Universial selectors*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*pseudo selectors*/
+/*visited link color change*/
+a:visited {
+    color: rgb(255, 32, 181);
+}
+/* unvisited link color change*/
+a:link{
+    color: rgb(66, 211, 255);
+}
+/*after cleak link color change*/
+a:active{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+/*if hover the link color change*/
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 226, 43);
+}
+
+p.one:first-child {
+    background-color: rgb(110, 226, 43);
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGyURTz08ZGPHHOzk9UUm4XkeRJhKZ5AHRlwlQSZnowQ&s");
+    background-repeat: repeat-x
+  }
